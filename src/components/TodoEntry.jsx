@@ -11,7 +11,7 @@ const TodoEntry = (props) => {
           <Grid stackable>
             <Grid.Column floated='left' width={5}>
               <List.Description as='small'>
-                Due date: {todo.dueDate}
+                Due date: {todo.start}
               </List.Description>
               <List.Header as='h2'>
                 {todo.title}
